@@ -25,4 +25,5 @@ This was my try to send a string by Python to Arduino via a USB port, and here i
   <li>We put characters side by side and make the string once again on the Arduino side!</li>
 </ul>
 </br>
-That's it!
+That's it! 
+
