@@ -1,6 +1,6 @@
-# Python and Arduino connection serial port
+<h2>Python and Arduino connection serial port</h2>
 This was my try to send a string by Python to Arduino via a USB port, and here is my experince.
-<h2>Python side</h2>
+<h3>Python side</h3>
 <ul>
   <li>For Python, you need pySerial on linux from <a href="http://pyserial.sourceforge.net/" >here</a> </li>
   <li>Download the archive from <a href="http://pypi.python.org/pypi/pyserial">here.</a> Unpack the archive, enter the pyserial-x.y directory and run 
@@ -15,7 +15,7 @@ This was my try to send a string by Python to Arduino via a USB port, and here i
   <li>To send a string, on the python side, we have to send string length, and then the string, and I send characters one by one with a small delay. Object.write() method send strings, so for sending lenght of string to  serial port you have to convert it to string -> str(char(length_of_statment)), then for sending the string, it can be done in loop, and one by one, and has no problem of conversion </li>
 <ul>
 
-<h2>Arduino side</h2>
+<h3>Arduino side</h3>
 <ul>
   <li>Serial port should be setup</li>
   <li>We have to listen to the port and wait by if( Serial.available() > 0)</li>
