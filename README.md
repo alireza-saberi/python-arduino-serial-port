@@ -13,7 +13,7 @@ This was my try to send a string by Python to Arduino via a USB port, and here i
   <li>How to read: inside an infinite loop : Object.readline()</li>
   <li>How to writw: Object.write("something")</li>
   <li>To send a string, on the python side, we have to send string length, and then the string, and I send characters one by one with a small delay. Object.write() method send strings, so for sending lenght of string to  serial port you have to convert it to string -> str(char(length_of_statment)), then for sending the string, it can be done in loop, and one by one, and has no problem of conversion </li>
-<ul>
+</ul>
 
 <h3>Arduino side</h3>
 <ul>
